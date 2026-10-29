@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="sr-Cyrl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Српски историјски музеј — водич</title>
+  <meta name="description" content="Џепни водич кроз изложбу „Чекајући сталну поставку“ — Српски историјски музеј, Београд.">
+  <meta name="theme-color" id="themeColor" content="#161012">
+  <script>try{var t=localStorage.getItem('imus.theme')||'system',l=t==='light'||(t==='system'&&matchMedia('(prefers-color-scheme: light)').matches);document.documentElement.dataset.scheme=l?'light':'dark'}catch(e){}</script>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="img/logo-512.png">
+  <link rel="apple-touch-icon" href="img/icon-192.png">
+  <link rel="preload" href="fonts/H4clBXOCl9bbnla_nHIq65u9uqc.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/H4clBXOCl9bbnla_nHIq75u9.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/nwpStKy2OAdR1K-IwhWudF-R3wsaZfrc.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/nwpStKy2OAdR1K-IwhWudF-R3w8aZQ.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/H4clBXOCl9bbnla_nHIq4Zu9uqc.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/nwpStKy2OAdR1K-IwhWudF-R3wEaZfrc.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="fonts/fonts.css">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <a class="skip" id="skip" href="#main">Skip</a>
+  <header class="bar" id="bar"></header>
+  <main id="main" tabindex="-1"></main>
+  <div id="dock"></div>
+
+  <div class="overlay" id="overlay" hidden>
+    <div class="scrim" data-act="overlay-close"></div>
+    <section class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetTitle"></section>
+  </div>
+  <div class="drawer-wrap" id="drawerWrap" hidden>
+    <div class="scrim" data-act="menu-close"></div>
+    <aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-labelledby="drawerTitle"></aside>
+  </div>
+  <div class="onboard" id="onboard" hidden role="dialog" aria-modal="true"></div>
+  <div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true"></div>
+  <div class="sr-only" id="live" aria-live="polite"></div>
+
+  <script src="js/content.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
