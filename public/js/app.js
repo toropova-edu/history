@@ -78,8 +78,8 @@
     download: '<path d="M12 4v11M7.500 11l4.500 4.500 4.500-4.500M5 20h14"/>'
   };
   const ic = (n, cls = '') => `<svg class="i ${cls}" viewBox="0 0 24 24" aria-hidden="true">${P[n]}</svg>`;
-  const PLAY = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4.5v15l13-7.5z"/></svg>';
-  const PAUSE = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4h3.5v16H7zM13.5 4H17v16h-3.5z"/></svg>';
+  const PLAY = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.6 5.8v12.4L18.2 12z"/></svg>';
+  const PAUSE = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8.6 6.4v11.2M15.4 6.4v11.2" style="fill:none;stroke-width:3.2"/></svg>';
 
   /* ---------------- Вспомогательное ---------------- */
   const hallItems = h => M.items.filter(i => i.hall === h && i.type === 'object');
