@@ -112,7 +112,7 @@ svg.i { width: 22px; height: 22px; flex: none; fill: none; stroke: currentColor;
 .row > svg.i { color: var(--muted); width: 20px; height: 20px; }
 .link-row { display: flex; align-items: center; gap: 12px; padding: 16px 0; border-top: 1px solid var(--line); margin-top: 18px; text-decoration: none; font-weight: 600; }
 .link-row svg.i:first-child { color: var(--gold); } .link-row .sp { flex: 1; }
-.more { border-top: 1px solid var(--line); padding: 4px 0; }
+.more { margin-top: 10px; padding: 4px 0; }
 .more summary { min-height: 52px; display: flex; align-items: center; font-weight: 600; cursor: pointer; list-style: none; }
 .more summary::-webkit-details-marker { display: none; }
 .more summary::after { content: "+"; margin-left: auto; color: var(--gold); font-size: 1.4rem; } .more[open] summary::after { content: "–"; }

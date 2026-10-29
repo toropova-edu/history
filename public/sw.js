@@ -1,6 +1,6 @@
 /* Офлайн: оболочка, шрифты и все фото кладутся в кэш при установке; аудио — при первом прослушивании или по кнопке в настройках.
    Код (html/js/css) берём из сети с запасом по таймауту — так версии файлов не расходятся; остальное — из кэша. */
-const VERSION = 'imus-guide-v31';
+const VERSION = 'imus-guide-v32';
 const CORE = ['./', 'index.html', 'css/app.css', 'js/content.js', 'js/i18n.js', 'js/app.js', 'js/vendor/jsqr.min.js', 'fonts/fonts.css',
   'fonts/H4clBXOCl9bbnla_nHIq65u9uqc.woff2', 'fonts/H4clBXOCl9bbnla_nHIq75u9.woff2', 'fonts/H4clBXOCl9bbnla_nHIq4Zu9uqc.woff2',
   'fonts/nwpStKy2OAdR1K-IwhWudF-R3wsaZfrc.woff2', 'fonts/nwpStKy2OAdR1K-IwhWudF-R3w8aZQ.woff2', 'fonts/nwpStKy2OAdR1K-IwhWudF-R3wEaZfrc.woff2',
